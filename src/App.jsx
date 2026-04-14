@@ -14,7 +14,7 @@ const identityCards = [
 
 const productNotes = ["Small batch", "Coming soon", "Crisp, briny, bright"];
 
-export default function BoyBobPicklesLandingPage() {
+export default function App() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
